@@ -1,0 +1,41 @@
+.Body{
+  width: 97%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 24px;
+  padding: 20px 24px;
+}
+.Swipper2.swiper {
+  width: 100%;
+  height: 300px;
+}
+
+.Swipper2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 170px;
+  width:170px !important;
+  border-radius: 10px;
+  margin: 20px 10px;
+  cursor: pointer;
+
+}
+.swiper-slide{
+  font-weight: 700;
+  transition: 0.45s;
+}
+.swiper-slide:hover{
+  color: red;
+}
+.Swipper2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+@media screen  and (max-width:1024px){
+  .Body{
+      display: none;
+  }
+}

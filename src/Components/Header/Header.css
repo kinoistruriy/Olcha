@@ -1,0 +1,101 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DA002B;
+    padding: 0 24px;
+    height: 70px;
+    font-weight: 600;
+}
+/* left div */
+.Header .Header-left{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 70px;
+}
+/* left div btn */
+.Header .Header-left .left-header-btn{
+    background-color: #fff;
+    color: #DA002B;
+    border-radius: 13px;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+.Header .Header-left .left-header-btn:hover{
+    background-color: rgba(255, 255, 255, 0.513);
+}
+.Header .Header-left .left-header-right-btn{
+    color: #fff;
+    border-radius: 13px;
+    font-size: 18px;   
+    border: 3px solid #fff; 
+    margin: 0 15px;
+}
+.Header .Header-left .left-header-right-btn:hover{
+    color: #DA002B;
+}
+/* left div btn end */
+.Header .Header-left span{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.Header .Header-left span:hover{
+    color: rgba(255, 255, 255, 0.513);
+}
+/* right block header */
+.Header .Header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 70px;
+}
+.Header-right span{
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Header-right span:hover{
+    color: rgba(255, 255, 255, 0.513);
+}
+.Header-right #right-button{
+    border-radius: 15px;
+    font-size: 19px;
+    
+    width: 220px;
+    border: 3px solid #fff;
+}
+.Header-right #right-button:hover{
+    color: #DA002B;
+}
+.Header .Header-right ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    height: 60px;
+    color: lightgray;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.Header .Header-right ul li{
+    list-style:  none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+.Header .Header-right ul li:hover{
+    color: #fff;
+}
+@media screen  and (max-width:1024px){
+    .Header{
+        display: none;
+    }
+}

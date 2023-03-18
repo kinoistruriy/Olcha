@@ -1,0 +1,57 @@
+.Card{
+    width: 300px;
+    height: 480px;
+    padding: 10px;
+    margin: 10px 0;
+}
+.Card img{
+    width: 218px;
+    height: 200px;
+    margin: 0 30px;
+    object-fit: contain;
+}
+.Card p{
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.Card p:hover{
+    color: red;
+}
+.btn-card{
+    background-color: #FFD740;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    margin: 8px 0;
+}
+.Bottom-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin: 20px 0;
+}
+.Bottom-btn button{
+    height: 100%;
+    font-size: 20px;
+   background-color: transparent;
+}
+#cart-btn{
+    width: 50px;
+    font-size: 22px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+#card-btn-bottom{
+    width: 210px;
+    color: red;
+    border: 3px solid red;
+    border-radius: 5px;
+}

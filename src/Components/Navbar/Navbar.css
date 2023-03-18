@@ -1,0 +1,81 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    padding: 28px 24px 20px;
+    z-index: 100000;
+    background-color: #fff;
+}
+.Navbar img{
+    width: 170px;
+    height: 80px;
+    /* background-color: #F2F2F2; */
+}
+.Navbar #right-button{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid black;
+    color: black;
+    height: 60px;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 0 40px;
+}
+.Navbar .Search-box{
+    width: 670px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: #F2F2F2;
+    margin: 0 45px;
+}
+.Navbar .Search-box form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar .Search-box input{
+    width: 575px;
+    height: 65px;
+    font-size: 19px;
+    padding: 11px 24px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.Navbar .Search-box #Search-btn{
+    width: 90px;
+    height: 57px;
+    border-radius: 12px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: #DA002B;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Navbar .Navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 480px;
+    height: 70px;
+    font-size: 20px;
+}
+.Navbar .Navbar-right .right-boxs{
+    padding: 0 15px;
+    text-align: center;
+    font-weight: 700;
+}
+@media screen  and (max-width:1024px){
+    .Navbar{
+        display: none;
+    }
+}
